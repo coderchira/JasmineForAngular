@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!--styles here-->
+    <link href="Content/jasmine/jasmine.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <!--Jasmine scripts here-->
+    <script src="Scripts/jasmine/jasmine.js"></script>
+    <script src="Scripts/jasmine/jasmine-html.js"></script>
+    <script src="Scripts/jasmine/console.js"></script>
+    <script src="Scripts/jasmine/boot.js"></script>
+    <!-- modules here-->
+    <script src="Scripts/angular.js"></script>
+    <script src="ng/modules/myapp.js"></script>
+    <!--angular mocks here-->
+    <script src="Scripts/angular-mocks.js"></script>
+    <!--routes here-->
+    <script src="Scripts/angular-route.js"></script>
+    <script src="ng/routes/appRoute.js"></script>
+    <!--controllers here-->
+    <script src="ng/controllers/mainController.js"></script>
+    <!--specs here-->
+    <script src="specs/ngmainControllerSpec.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+    <div ng-view=""></div>
+</body>
+</html>
